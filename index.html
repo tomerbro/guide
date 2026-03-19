@@ -58,7 +58,11 @@
       display: inline-block;
       transition: color 0.3s;
     }
-    .hero h1 .letter { color: var(--accent); }
+    .hero h1 .letter-g { color: #16a34a; }
+    .hero h1 .letter-u { color: #7c3aed; }
+    .hero h1 .letter-i { color: #ea580c; }
+    .hero h1 .letter-d { color: #2563eb; }
+    .hero h1 .letter-e { color: #dc2626; }
 
     .hero .subtitle {
       font-size: 1.2rem;
@@ -122,7 +126,11 @@
       grid-row: 1 / 3;
     }
 
-    .principle .icon { background: var(--accent); }
+    .p-g .icon { background: #16a34a; }
+    .p-u .icon { background: #7c3aed; }
+    .p-i .icon { background: #ea580c; }
+    .p-d .icon { background: #2563eb; }
+    .p-e .icon { background: #dc2626; }
 
     .principle h2 {
       font-size: 1.25rem;
@@ -134,7 +142,11 @@
       font-weight: 800;
     }
 
-    .principle h2 .highlight { color: var(--accent); }
+    .p-g h2 .highlight { color: #16a34a; }
+    .p-u h2 .highlight { color: #7c3aed; }
+    .p-i h2 .highlight { color: #ea580c; }
+    .p-d h2 .highlight { color: #2563eb; }
+    .p-e h2 .highlight { color: #dc2626; }
 
     .principle p {
       color: var(--muted);
@@ -190,7 +202,11 @@
       color: #fff;
     }
 
-    .letters-row span { background: var(--accent); }
+    .letters-row .lg { background: #16a34a; }
+    .letters-row .lu { background: #7c3aed; }
+    .letters-row .li { background: #ea580c; }
+    .letters-row .ld { background: #2563eb; }
+    .letters-row .le { background: #dc2626; }
 
     footer {
       text-align: center;
@@ -230,31 +246,31 @@
   <section class="principles">
 
     <article class="principle p-g">
-      <div class="icon">G</div>
+      <div class="icon">🛡️</div>
       <h2><span class="highlight">Guardrails</span> first</h2>
       <p>Define constraints, tests, and boundaries before generating code. Establish what "good" looks like up front so AI outputs can be validated automatically. Without guardrails, speed becomes a liability.</p>
     </article>
 
     <article class="principle p-u">
-      <div class="icon">U</div>
+      <div class="icon">🧠</div>
       <h2><span class="highlight">Understand</span> the system</h2>
       <p>AI can write code, but engineers must understand architecture and domain context. Delegating generation without comprehension creates fragile systems no one can maintain or debug.</p>
     </article>
 
     <article class="principle p-i">
-      <div class="icon">I</div>
+      <div class="icon">🔄</div>
       <h2><span class="highlight">Iterate</span> with feedback</h2>
       <p>Treat AI outputs as drafts &ndash; review, test, and refine continuously. The first result is rarely the best. Build tight feedback loops between human judgment and AI generation.</p>
     </article>
 
     <article class="principle p-d">
-      <div class="icon">D</div>
+      <div class="icon">📐</div>
       <h2><span class="highlight">Design</span> before generation</h2>
       <p>Architecture and interfaces should be defined by humans. Let engineers own the "what" and "why" while AI assists with the "how." Structure precedes speed.</p>
     </article>
 
     <article class="principle p-e">
-      <div class="icon">E</div>
+      <div class="icon">📊</div>
       <h2><span class="highlight">Evaluate</span> everything</h2>
       <p>Measure quality, correctness, and impact of AI-generated work. What isn't measured can't be improved. Continuous evaluation keeps AI contributions aligned with real-world outcomes.</p>
     </article>
